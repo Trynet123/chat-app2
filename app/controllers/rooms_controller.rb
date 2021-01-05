@@ -1,5 +1,6 @@
 class RoomsController < ApplicationController
-  # 新規チャットルーム作成ページへ
+  # チャット作成ボタンを押すと発動
+  # 新しく空のレコード作成「とある空の部屋」
   def new
   @room = Room.new
   end
